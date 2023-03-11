@@ -24,4 +24,4 @@ eureka:
 
 product:
   base:
-    uri: http://localhost:8080
+    uri: ${PRODUCT_SERVER_ADDRESS}
